@@ -1,0 +1,30 @@
+[
+  {
+    "context": "Workspace",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-c": "workspace::CopyPath"
+    }
+  },
+  {
+    "context": "Editor",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-c": "editor::CopyPath"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-c": "project_panel::CopyPath"
+    }
+  },
+  {
+    "context": "OutlinePanel",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-c": "outline_panel::CopyPath"
+    }
+  }
+]
