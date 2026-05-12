@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry"
+    }
+  },
   "base_keymap": "JetBrains",
   "diff_view_style": "split",
   "project_panel": {
@@ -29,9 +34,41 @@
   "buffer_font_family": "Berkeley Mono",
   "ui_font_size": 16,
   "buffer_font_size": 15,
+  "languages": {
+    "JavaScript": {
+      "format_on_save": "on",
+      "formatter": "language_server",
+      "language_servers": ["biome", "..."]
+    },
+    "JSX": {
+      "format_on_save": "on",
+      "formatter": "language_server",
+      "language_servers": ["biome", "..."]
+    },
+    "TypeScript": {
+      "format_on_save": "on",
+      "formatter": "language_server",
+      "language_servers": ["biome", "..."]
+    },
+    "TSX": {
+      "format_on_save": "on",
+      "formatter": "language_server",
+      "language_servers": ["biome", "..."]
+    },
+    "JSON": {
+      "format_on_save": "on",
+      "formatter": "language_server",
+      "language_servers": ["biome", "..."]
+    },
+    "CSS": {
+      "format_on_save": "on",
+      "formatter": "language_server",
+      "language_servers": ["biome", "..."]
+    }
+  },
   "theme": {
-    "mode": "system",
-    "light": "Gruvbox Light Hard",
-    "dark": "Gruvbox Dark"
+    "mode": "light",
+    "light": "Ayu Light",
+    "dark": "Gruvbox Dark Hard"
   }
 }
